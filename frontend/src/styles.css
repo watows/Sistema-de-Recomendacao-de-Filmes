@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeeded;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid #ddd;
+}
+
+button {
+  border: none;
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #aaa;
+}
+
+.movie-list {
+  margin-top: 20px;
+}
+
+.movie-card {
+  margin-bottom: 10px;
+  font-weight: bold;
+}

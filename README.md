@@ -76,3 +76,30 @@ Desenvolver um sistema de recomendação de filmes que permita aos usuários pes
 Faça o clone do repositório:
 ```bash
 git clone https://github.com/seu-usuario/movie-recommender-system.git
+```
+Instale as dependências do frontend e backend:
+#### **Frontend:**
+```bash
+cd frontend
+npm install
+```
+#### **Backend:**
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+### **Executando o Projeto**
+#### **Backend:**
+Inicie o servidor Flask:
+```bash
+python app.py
+```
+
+#### **Frontend:**
+Inicie o servidor React:
+```bash
+npm start
+```
+
+A aplicação ficará disponível em: http://localhost:3000.
